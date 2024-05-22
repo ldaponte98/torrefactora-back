@@ -8,6 +8,12 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 import java.util.List;
+/**
+ * Mapper ITaskMapper
+ * Mapper for Task Entity and Task DTO
+ * @author Luis Aponte
+ * @version 0.1, 2024/05/22
+ */
 @Mapper(componentModel = "spring")
 public interface ITaskMapper {
     @Mapping(target = "priority.id", source = "dto.priority_id")
