@@ -74,7 +74,7 @@ public class Task implements Serializable {
      * Column status_id of the entity relationship with Status Entity.
      */
     @OneToOne
-    @JoinColumn(name = "status", insertable = true, updatable = true)
+    @JoinColumn(name = "status_id", insertable = true, updatable = true)
     private Status status;
     /**
      * priority
